@@ -19,10 +19,18 @@ export default function Home() {
         </span>
       </h1>
       <p className="text-center mt-8 text-zinc-600">
-        According to the official NextJS
+        According to the official{" "}
+        <a
+          href="https://nextjs.org/docs"
+          target="_blank"
+          className="bg-black hover:bg-gradient-to-r from-[#5d58e6] to-[#dc5ae6] bg-clip-text text-transparent"
+        >
+          NextJS
+        </a>{" "}
         documentation, the practice demo files
         help in learning NextJS.
       </p>
+
       <div className="mt-12 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {courses.map((course, idx) => (
           <div
