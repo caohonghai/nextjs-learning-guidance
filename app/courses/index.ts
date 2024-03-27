@@ -2,6 +2,7 @@ export interface Course {
   name: string;
   description: string;
   icon: string;
+  url?: string;
 }
 
 export const courses: Course[] = [
@@ -10,6 +11,7 @@ export const courses: Course[] = [
     description:
       "Include Routes, Pages, Layouts, Root Layout, Template, Loading, Error Handling, Not Found etc.",
     icon: "ion:navigate-circle-outline",
+    url: '/defining-routes'
   },
   {
     name: "Dynamic Routes",

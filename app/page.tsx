@@ -1,5 +1,6 @@
 "use client";
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 import { Albert_Sans } from "next/font/google";
 const albert = Albert_Sans({
   subsets: ["latin"],
@@ -51,9 +52,9 @@ export default function Home() {
               {course.description}
             </p>
             <div className="flex-1 flex items-end">
-              <a
+            <Link
                 className="flex items-center gap-2 hover:gap-3 transform duration-200 ease-in-out cursor-pointer"
-                href="#"
+                href={course.url || '#'}
               >
                 <span className="font-bold bg-gradient-to-r from-[#5d58e6] to-[#dc5ae6] bg-clip-text text-transparent">
                   View Demo!
@@ -62,7 +63,7 @@ export default function Home() {
                   icon="mdi:arrow-right"
                   className="h-auto text-[#dc5ae6] "
                 />
-              </a>
+              </Link>
             </div>
           </div>
         ))}
