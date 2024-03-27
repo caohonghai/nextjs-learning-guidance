@@ -27,9 +27,7 @@ export default function RootTemplate({
               className="w-[24px] h-auto text-zinc-600 hover:text-black"
             />
           </Link>
-          <Link
-            href="/"
-          >
+          <Link href="/">
             <Icon
               icon="mingcute:home-3-line"
               className="w-[24px] h-auto text-zinc-600 hover:text-black"

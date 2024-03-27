@@ -11,13 +11,14 @@ export const courses: Course[] = [
     description:
       "Include Routes, Pages, Layouts, Root Layout, Template, Loading, Error Handling, Not Found etc.",
     icon: "ion:navigate-circle-outline",
-    url: '/defining-routes'
+    url: "/defining-routes",
   },
   {
     name: "Dynamic Routes",
     description:
       "Display the content of the article corresponding to the id parameter in the URL.",
     icon: "ph:planet-bold",
+    url: "/dynamic-routes",
   },
   {
     name: "Route Groups",
