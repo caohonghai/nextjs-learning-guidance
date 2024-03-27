@@ -25,6 +25,7 @@ export const courses: Course[] = [
     description:
       "Mark the folder as a route group to prevent the folder name from being mapped to the URL.",
     icon: "ic:outline-group-work",
+    url: "/route-groups",
   },
   {
     name: "Parallel Routes",

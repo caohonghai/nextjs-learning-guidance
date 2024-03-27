@@ -35,27 +35,26 @@ export default function Layout({
         <Link
           href="/defining-routes/settings"
           className="text-zinc-600 hover:text-zinc-900"
-          >
-            Settings
-          </Link>
-          <Link
-            href="/defining-routes/404"
-            className="text-zinc-600 hover:text-zinc-900"
-          >
-            404
-          </Link>
-        </div>
-        <div className="flex flex-row items-center border py-4 px-2 mt-4 justify-between">
-          <h1>Dashboard Layout Count: {count}</h1>
-          <button
-            className="bg-gradient-to-br from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
-            onClick={() => setCount(count + 1)}
-          >
-            Increment
-          </button>
-        </div>
-        {children}
+        >
+          Settings
+        </Link>
+        <Link
+          href="/defining-routes/404"
+          className="text-zinc-600 hover:text-zinc-900"
+        >
+          404
+        </Link>
       </div>
-    );
-  }
-  
+      <div className="flex flex-row items-center border py-4 px-2 mt-4 justify-between">
+        <h1>Dashboard Layout Count: {count}</h1>
+        <button
+          className="bg-gradient-to-br from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
+          onClick={() => setCount(count + 1)}
+        >
+          Increment
+        </button>
+      </div>
+      {children}
+    </div>
+  );
+}
