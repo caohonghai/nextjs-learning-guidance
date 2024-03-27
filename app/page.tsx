@@ -10,7 +10,6 @@ import { courses } from "./courses";
 export default function Home() {
   return (
     <div>
-      <div className="w-[400px] h-[400px] absolute top-0 left-1/3 border rounded-full bg-gradient-to-r from-[#5d58e6] to-[#dc5ae6] blur-4xl -z-20 opacity-25"></div>
       <h1
         className={`${albert.className} mt-12 text-4xl lg:text-5xl font-extrabold lg:tracking-tight xl:tracking-tighter text-center`}
       >
