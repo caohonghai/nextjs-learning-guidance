@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Learning Guidance
 
-## Getting Started
+## Introduce
 
-First, run the development server:
+Welcome to the _Next.js Learning Guidance_ repository! This project is some demos I wrote to learn [Next.js](https://nextjs.org/), and I now want to publish them to help beginners developers to understand and master Next.js by providing comprehensive guides accompanied by practical demo examples. The demo example mainly revolves around the content provided in the Next.js official documentation.
+
+## Features
+
+- **Demo Example**: Practical, real-world examples showcasing different features and best practices of Next.js development.
+- **Resources**: Additional resources and links to further deepen your understanding of Next.js.
+
+## Prerequisites
+
+Before diving into the learning materials, make sure you have the following prerequisites covered:
+
+- Basic knowledge of [JavaScript](http://javascript.info/) and [React.js](https://react.dev/).
+- [Node.js](https://nodejs.dev/) installed on your machine.
+- Familiarity with Git for cloning the repository and exploring the demo examples.
+
+## Content
+
+- Getting Started with Next.js
+- App Routes and Navigation
+- Data Fetching
+- More(Pending)
+
+## How to Use This Repository
+
+To get the most out of this learning guidance, we recommend the following steps:
+
+- **Clone the Repository**: Start by cloning this repository to your local machine to have access to all the guides and demos.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/caohonghai/nextjs-learning-guidance.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Explore the Guides**: Navigate through the guides directory to find topics that interest you. We recommend starting from the beginning if you're a beginner like me in Next.js.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Run Demo Examples**: Each demo example comes with its own set of instructions on how to run and explore the code. Make sure to try them out to see Next.js in action.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+cd nextjs-learning-guidance
 
-## Learn More
+pnpm install
 
-To learn more about Next.js, take a look at the following resources:
+pnpm dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Practice**: Apply what you've learned by modifying the demo examples or creating your own Next.js projects.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribution
 
-## Deploy on Vercel
+Contributions are welcome! I am also a beginner, there may be some mistakes. If you have suggestions or find any issues, please feel free to open an **issue** or **pull request**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Thanks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting this repository! We hope it helps you on your journey to mastering Next.js.
