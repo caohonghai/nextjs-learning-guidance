@@ -26,6 +26,19 @@ export default function ParallelRoutes() {
         error `handling(error.tsx)` and
         `loading(loading.tsx)` pages.
       </p>
+      <Link
+        href={`/parallel-routes/demo3`}
+        className="bg-gradient-to-br max-w-fit from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
+      >
+        Demo3
+      </Link>
+      <p>
+        Parallel routing is the same as routing
+        groups, and will not affect the URL. The
+        URL corresponding to
+        `@analytics/page-views/page.tsx` is
+        `/page-views`
+      </p>
     </div>
   );
 }
