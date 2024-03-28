@@ -1,7 +1,9 @@
 import { use } from "react";
 
 async function getData() {
-  await new Promise((resolve) => setTimeout(resolve, 5000));
+  await new Promise((resolve) =>
+    setTimeout(resolve, 5000)
+  );
   return {
     message: "About Page!",
   };

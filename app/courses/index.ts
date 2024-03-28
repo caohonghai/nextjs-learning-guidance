@@ -32,6 +32,7 @@ export const courses: Course[] = [
     description:
       "Render one or more pages simultaneously or conditionally within the same layout.",
     icon: "icons8:parallel-tasks",
+    url: "/parallel-routes",
   },
   {
     name: "Intercepting Routes",
