@@ -44,17 +44,20 @@ export default function Home() {
                   className="w-[24px] h-auto text-[#5d58e6] hover:text-[#dc5ae6] "
                 />
               </div>
-              <a className="text-lg " href="#">
+              <Link
+                className="text-lg "
+                href={course.url || "#"}
+              >
                 {course.name}
-              </a>
+              </Link>
             </div>
             <p className="text-sm">
               {course.description}
             </p>
             <div className="flex-1 flex items-end">
-            <Link
+              <Link
                 className="flex items-center gap-2 hover:gap-3 transform duration-200 ease-in-out cursor-pointer"
-                href={course.url || '#'}
+                href={course.url || "#"}
               >
                 <span className="font-bold bg-gradient-to-r from-[#5d58e6] to-[#dc5ae6] bg-clip-text text-transparent">
                   View Demo!

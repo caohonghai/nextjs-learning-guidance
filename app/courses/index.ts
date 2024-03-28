@@ -39,5 +39,6 @@ export const courses: Course[] = [
     description:
       "Intercept other routes in the current route and display content in the current route.",
     icon: "heroicons-outline:ban",
+    url: "intercepting-routes",
   },
 ];
