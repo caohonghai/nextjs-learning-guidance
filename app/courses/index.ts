@@ -41,4 +41,11 @@ export const courses: Course[] = [
     icon: "heroicons-outline:ban",
     url: "intercepting-routes",
   },
+  {
+    name: "Route Handlers",
+    description:
+      "In a front-end and back-end separation architecture, the client and server interact through API interfaces.",
+    icon: "pajamas:merge-request",
+    url: "route-handlers",
+  },
 ];

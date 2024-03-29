@@ -11,20 +11,20 @@ export default function PhotoPage({
     (item) => item.id === id
   );
   return (
-    <>
+    <div className="mt-4 flex flex-col gap-4">
       <Image
         width={200}
         height={200}
         alt="Picture of the cat"
         src={photo!.src}
-        className="m-1 w-[200px] h-[200px] object-cover"
+        className="w-[200px] h-[200px] object-cover"
       />
       <Link
         href={`/`}
-        className="mt-4 bg-gradient-to-br max-w-fit from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
+        className="bg-gradient-to-br max-w-fit from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
       >
         Home
       </Link>
-    </>
+    </div>
   );
 }
