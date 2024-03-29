@@ -53,6 +53,6 @@ export const courses: Course[] = [
     description:
       "Middleware allows you to run code before a request is completed.",
     icon: "mdi:middleware-outline",
-    url: "middleware",
+    url: "middle-ware",
   },
 ];

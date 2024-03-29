@@ -18,14 +18,14 @@ export default function RouteHandlers() {
       </p>
 
       <Link
-        href={`/middleware/redirect`}
+        href={`/middle-ware/redirect`}
         className="bg-gradient-to-br max-w-fit from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
       >
         Demo1
       </Link>
       <p>Demo1: Redirect Home</p>
       <Link
-        href={`/middleware/headers`}
+        href={`/middle-ware/headers`}
         className="bg-gradient-to-br max-w-fit from-[#5d58e6] to-[#dc5ae6] hover:from-[#dc5ae6] hover:to-[#5d58e6] px-4 py-2 rounded-md text-white"
       >
         Demo2

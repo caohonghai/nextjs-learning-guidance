@@ -1,16 +1,16 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { RedirectMiddleware } from "./app/middleware/redirect/_middleware";
-import { HeadersMiddleware } from "./app/middleware/headers/_middleware";
+import { RedirectMiddleware } from "./app/middle-ware/redirect/_middleware";
+import { HeadersMiddleware } from "./app/middle-ware/headers/_middleware";
 
 export function middleware(request: NextRequest) {
   switch (true) {
     case request.nextUrl.pathname.startsWith(
-      "/middleware/redirect"
+      "/middle-ware/redirect"
     ):
       return RedirectMiddleware(request);
     case request.nextUrl.pathname.startsWith(
-      "/middleware/headers"
+      "/middle-ware/headers"
     ):
       return HeadersMiddleware(request);
     default:
