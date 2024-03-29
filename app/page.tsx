@@ -35,7 +35,7 @@ export default function Home() {
         {courses.map((course, idx) => (
           <div
             key={idx}
-            className="flex flex-col gap-2 bg-[#f6f6f6] p-4 rounded-lg"
+            className="flex flex-col gap-2 bg-[#f6f6f6] p-4 rounded-lg hover:bg-[#f0f0f0] hover:-translate-y-2 transition-all"
           >
             <div className="flex gap-2 items-center">
               <div className="w-8 h-8 flex items-center justify-center bg-white rounded-full">
@@ -45,7 +45,7 @@ export default function Home() {
                 />
               </div>
               <Link
-                className="text-lg "
+                className="text-lg bg-black hover:bg-gradient-to-r from-[#5d58e6] to-[#dc5ae6] bg-clip-text text-transparent"
                 href={course.url || "#"}
               >
                 {course.name}

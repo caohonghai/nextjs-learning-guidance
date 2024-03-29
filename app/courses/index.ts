@@ -48,4 +48,11 @@ export const courses: Course[] = [
     icon: "pajamas:merge-request",
     url: "route-handlers",
   },
+  {
+    name: "Middleware",
+    description:
+      "Middleware allows you to run code before a request is completed.",
+    icon: "mdi:middleware-outline",
+    url: "middleware",
+  },
 ];
