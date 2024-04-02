@@ -89,4 +89,27 @@ export const courses: Guidance[] = [
       },
     ],
   },
+  {
+    name: "Data Fetching And Caching",
+    children: [
+      {
+        name: "Data Fetching",
+        description:
+          "Data fetching is a core part of any application. ",
+        icon: "simple-icons:axios",
+      },
+      {
+        name: "Caching",
+        description:
+          "Caching stores data so it doesn't need to be re-fetched from your data source on every request.",
+        icon: "ic:outline-cached",
+      },
+      {
+        name: "Server Actions",
+        description:
+          "Server Actions are asynchronous functions that are executed on the server.",
+        icon: "material-symbols:action-key",
+      },
+    ],
+  },
 ];
