@@ -69,20 +69,23 @@ export const courses: Guidance[] = [
     children: [
       {
         name: "Render Mode",
-        description: "CSR, SSR, SSG, ISR.",
+        description: "CSR, SSR",
         icon: "material-symbols:mode-fan-outline",
+        url: 'render-mode'
       },
       {
         name: "Server Component",
         description:
           "React Server Components allow you to write UI that can be rendered and optionally cached on the server. ",
         icon: "solar:server-path-broken",
+        url: "render-component"
       },
       {
         name: "Suspense And Streaming",
         description:
           "Streaming enables you to progressively render UI from the server.",
         icon: "carbon:downstream",
+        url: "suspense-streaming"
       },
     ],
   },

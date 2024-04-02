@@ -31,7 +31,7 @@ export default function Home() {
         help in learning NextJS.
       </p>
       {courses.map((course) => (
-        <>
+        <div key={course.name}>
           <div className="mt-8 ">
             <h2
               className={`${albert.className} text-2xl lg:text-3xl font-bold border-b-2 border-zinc-600 text-zinc-600 inline`}
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </>
+        </div>
       ))}
     </div>
   );
